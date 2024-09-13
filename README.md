@@ -1,5 +1,5 @@
 # DAT111-innlevering-11-09-2024
-
+![alt text](https://github.com/HVL186618/DAT111-innlevering-11-09-2024/blob/main/Images/DUCK.png)
 ## Prosjektbeskrivelse
 Lærings lab siden:
 
