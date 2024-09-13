@@ -41,11 +41,11 @@ Utstyr og utlån siden:
 
 - Titel med en kort forklarelse om labben inni boks.
 
-# DUCK
-![DUCK](https://github.com/HVL186618/DAT111-innlevering-11-09-2024/blob/main/Images/DUCK.png)
-
 - Deretter utvidet forklarelse.
 
 - Egen inndeling om utlån som snakker om Cheqroom.
 
 - Link til å logge inn på Cheqroom.
+
+# DUCK
+![DUCK](https://github.com/HVL186618/DAT111-innlevering-11-09-2024/blob/main/Images/DUCK.png)
