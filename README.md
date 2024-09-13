@@ -48,4 +48,6 @@ Utstyr og utlån siden:
 - Link til å logge inn på Cheqroom.
 
 # DUCK
+![DUCK](https://github.com/HVL186618/DAT111-innlevering-11-09-2024/blob/main/Images/DUCK.png)
+
 - BONUS DUCKS: https://www.youtube.com/watch?v=U2LhXOtsTLY
