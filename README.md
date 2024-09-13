@@ -1,5 +1,4 @@
 # DAT111-innlevering-11-09-2024
-![alt text](https://github.com/HVL186618/DAT111-innlevering-11-09-2024/blob/main/Images/DUCK.png)
 ## Prosjektbeskrivelse
 Lærings lab siden:
 
@@ -41,6 +40,9 @@ Utstyr og utlån siden:
 <!-- -->
 
 - Titel med en kort forklarelse om labben inni boks.
+
+# DUCK
+![DUCK](https://github.com/HVL186618/DAT111-innlevering-11-09-2024/blob/main/Images/DUCK.png)
 
 - Deretter utvidet forklarelse.
 
