@@ -32,7 +32,7 @@ Lærings lab siden:
   - Forklarer hva denne kategorien er og viser til flere bokser for
     steder HVL har campus.
 
-- Mange del nettsider.
+- Oppsummert: Mange del nettsider.
 
 Utstyr og utlån siden:
 
