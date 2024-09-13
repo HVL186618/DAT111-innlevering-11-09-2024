@@ -1,0 +1,29 @@
+/* dette fjerner default margins og paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+.HVLMenu {
+    background-color: #004357;
+    width: 100%; /* gå helt ut til kantene */
+    height: 48; /* høyden til den blå hvl menyen */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+/* hvl logoen */
+.logo {
+    height: 45px;
+    width: auto;
+    padding: 10px;
+}
