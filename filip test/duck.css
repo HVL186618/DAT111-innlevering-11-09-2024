@@ -1,0 +1,118 @@
+/* dette fjerner default margins og paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-size: 20;
+    line-height: 1.5;
+}
+
+.HVLMenu {
+    background-color: #004357;
+    width: 100%; /* gå helt ut til kantene */
+    height: 82; /* høyden til den blå hvl menyen */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.infobox {
+    background-color: #ebf9fa;
+    left: 0;
+    width: 100%;
+}
+
+/* hvl logoen */
+.logo {
+    height: 78px;
+    width: auto;
+    padding: 10px;
+}
+
+/* blå container til tekst */
+.infobox {
+    background-color: #ebf9fa;
+    width: 100%; /* Infobox strekker seg helt til sidene */
+    padding: 20px 0;
+}
+
+/* tekst i paragrafer og infobokser bør være i en text container */
+.text-container {
+    width: 60%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+/*.text-container p {} */
+
+p {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+
+.horizontal {
+    display: flex;
+    flex-direction: row;
+    gap: 10px; 
+    width: 100%; 
+    justify-content: space-between;
+}
+.horizontal-container {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    flex: 1;
+}
+
+
+.content {
+    margin-top: 100px;
+}
+
+/* toggleable dropdown bør brukes inni en text container */
+.dropdown-toggle {
+    background-color: #f0f9fa;
+    color: #004357;
+    font-weight: bold;
+    font-size: 25px;
+    border: 2px solid #64d0df;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    text-align: left;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+/* style for collapsible inni drop down */
+.dropdown-content {
+    display: none;
+    width: 100%;
+    background-color: #f6f8f9;
+    border: 0px solid #eeeeee;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: -5px;
+}
+
+/* style for hyperlink */
+a {
+    color: #004357;
+}
+
+/* hyperlink on hover */
+a:hover {
+}
+.høststudie {
+    margin-top: 100px;
+}
+
