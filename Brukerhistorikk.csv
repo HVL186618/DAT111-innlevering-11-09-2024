@@ -1,11 +1,8 @@
-ID, "Som en...", "Ønsker jeg å...", "Slik at jeg..."
-BRH-1,"innbygger av en kommune der HVL har kampus","skaffe meg infomasjon om læringslabben og deres status","er oppdatert på hva læringslabben og hva det dreier seg om, og hva de tilbyr.",,,,,,,,
-BRH-2,"innbygger av en kommune der HVL har kampus","få en beskrivelse av læringslabben sin visjon, hensikt, mål og bakgrunn.","får en forståelse for hvorfor læringslabben er opprettet.",,,,,,,,
-BRH-3,"innbygger av en kommune der HVL har kampus","se en presentasjon av løsninger og teknologier som benyttes ved læringslabbene.","får en forståelse av løsningene og hvilken påvirkning disse har på
-studiestedet og lokalsamfunn.",,,,,,,,
-BRH-4,"innbygger av en kommune der HVL har kampus","se en beskrivelse av bærekraft og samfunnsansvar som adresseres.","får en enda bedre forståelse av hvordan læringslabbene adresserer
-disse områdene.
-ved læringslabbene. Slik at jeg vet hvem jeg skal kontakte, og hvordan jeg skal gå frem for å få utfyllende informasjon, leie utstyr eller inngå samarbeid.",,,,,,,,
-BRH-5,"innbygger av en kommune der HVL har kampus","finne kontaktinformasjon for læringslabbene.","vet hvem jeg skal kontakte, og hvordan jeg skal gå frem for å få utfyllende informasjon, leie utstyr eller inngå samarbeid.",,,,,,,,
+ID,"Som en...", "Ønsker jeg å...","Slik at jeg..."
+BRH-1,"innbygger av en kommune der HVL har kampus","skaffe meg infomasjon om læringslabben og deres status","er oppdatert på hva læringslabben og hva det dreier seg om, og hva de tilbyr."
+BRH-2,"innbygger av en kommune der HVL har kampus","få en beskrivelse av læringslabben sin visjon, hensikt, mål og bakgrunn.","får en forståelse for hvorfor læringslabben er opprettet."
+BRH-3,"innbygger av en kommune der HVL har kampus","se en presentasjon av løsninger og teknologier som benyttes ved læringslabbene.","får en forståelse av løsningene og hvilken påvirkning disse har på studiestedet og lokalsamfunn."
+BRH-4,"innbygger av en kommune der HVL har kampus","se en beskrivelse av bærekraft og samfunnsansvar som adresseres.","får en enda bedre forståelse av hvordan læringslabbene adresserer disse områdene."
+BRH-5,"innbygger av en kommune der HVL har kampus","finne kontaktinformasjon for læringslabbene.","vet hvem jeg skal kontakte, og hvordan jeg skal gå frem for å få utfyllende informasjon, leie utstyr eller inngå samarbeid."
 BRH-6,"elev fra Stord","oppnå å kunne bruke ett kamera","kan bruke kameraet til en skoleoppgave."
 BRH-7,"representant av HVL Skape og Kommunikasjon","oppnå å få undervisning til våre deltakere om det å være student til låns","kan ha informerte deltakere til HVL Skape."
