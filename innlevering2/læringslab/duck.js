@@ -14,4 +14,29 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         });
     });
+
+    // de skulle aldri gitt oss makten til å erstatte alle punktum med små ender
+    function replacePeriodsWithImage(node) {
+        // for alle nodes
+        if (node.nodeType === Node.TEXT_NODE) {
+            // hvis text node, lag nytt element hvor punktum er erstatta
+            let newText = node.textContent.replace(
+                /\./g, // Erstatt "."
+                '<img src="period.png" alt="." style="width:10px;height:10px;">' // erstatt med bildeelement 
+            );
+
+            // element til å ta den nye koden i
+            const span = document.createElement('span');
+            span.innerHTML = newText; // erstatt koden til ny span med nye koden vår
+
+            // erstatt original node med nytt element
+            node.replaceWith(span);
+        } else {
+            // hvis ikke text node, recur for å sjekke child nodes
+            node.childNodes.forEach(replacePeriodsWithImage);
+        }
+    }
+
+    // nå blir det party her
+    document.body.childNodes.forEach(replacePeriodsWithImage);
 });
