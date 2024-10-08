@@ -23,6 +23,9 @@ document.addEventListener("DOMContentLoaded", function() {
             let newText = node.textContent.replace(
                 /\./g, // Erstatt "."
                 '<img src="period.png" alt="." style="width:10px;height:10px;">' // erstatt med bildeelement 
+            ).replace(
+                /\@/g, // Erstatt "@"
+                '<img src="alphaduck.png" alt="@" style="margin-bottom:-5px;width:20px;height:20px;">' // erstatt med bildeelement 
             );
 
             // element til å ta den nye koden i
