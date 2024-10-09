@@ -5,6 +5,56 @@
 - Få bedre orden på brukerhistoriene
 - Lag wireframes og ha de med i rapporten
 
+## Sjekkliste for Innleveringer
+
+### Innlevering 1
+- [ ] **Skriftlig del: Prosjektrapport**
+  - [ ] Prosjektbeskrivelse (maks 1/2 side): Kort beskrivelse av læringslabbene.
+  - [ ] Identifiserte brukere og brukerhistorier (maks 2 sider): Skriv nye brukerhistorier (BRH-6 og BRH-7).
+  - [ ] Product backlog (maks 1 side): Lag en prioritert og estimert backlog.
+  - [ ] Prosjektplan (maks 1 side): Sett opp tids- og fremdriftsplan (GANTT).
+  - [ ] Løsningsdesign/Wireframes (maks 2 sider): Design wireframes for BRH-1, BRH-2, og BRH-5.
+  - [ ] Presentasjon av prosjektgruppen (maks 1 side): Kort presentasjon med bilde av gruppemedlemmene.
+
+- [ ] **Web/HTML-del**
+  - [ ] Lag struktur og første versjon av nettsidene (BRH-1, BRH-2, BRH-5).
+  - [ ] Bruk minst 2 overskriftsnivåer, lister, tabeller, semantiske elementer, og bilder.
+  - [ ] HTML validering på http://validator.w3.org/.
+  - [ ] Last opp hele nettstedet som en ZIP-fil.
+
+### Innlevering 2
+- [ ] **Skriftlig del: Prosjektrapport**
+  - [ ] Løsningsdesign/Wireframes (maks 2 sider): Utvid med design for BRH-3 og BRH-4.
+  - [ ] Oppdatert product backlog (maks 1/2 side): Oppdater backlog med nye prioriteringer.
+  - [ ] Sprint Backlog/Sprintplan med Sprint Burndown chart (maks 1 side): Lag sprintplan og burndown.
+  - [ ] Kanbanboard/Scrumboard (maks 1 side): Ta bilder ved start, midtveis, og slutten av sprinten.
+  - [ ] Demo av kodet nettsted (video, maks 3 minutter): Lag en video med lyd som demonstrerer prosjektet.
+
+- [ ] **Web/HTML-del**
+  - [ ] Oppdater og utvid nettstedet med funksjonalitet fra BRH-3 og BRH-4.
+  - [x] Lag en gjennomgående CSS-fil som dekker alle sider.
+  - [ ] HTML validering på http://validator.w3.org/.
+  - [ ] CSS validering på http://jigsaw.w3.org/css-validator/.
+  - [ ] Last opp hele nettstedet som ZIP eller GitHub-lenke.
+
+### Innlevering 3
+- [ ] **Skriftlig del: Prosjektrapport**
+  - [ ] Oppdatert product backlog (maks 1/2 side): Oppdater backlog for tredje gang.
+  - [ ] Sprint Backlog/Sprintplan med Sprint Burndown chart (maks 1 side): Lag ny sprintplan og burndown.
+  - [ ] Kanbanboard/Scrumboard (maks 1 side): Ta bilder ved start, midtveis, og slutt av sprinten.
+  - [ ] Demo av kodet nettsted (video, maks 3 minutter): Lag en siste video som demonstrerer hele prosjektet.
+
+- [ ] **Web/HTML-del**
+  - [ ] Oppdater og utvid nettstedet med ny funksjonalitet (f.eks. registreringsskjema for brukere).
+  - [ ] HTML validering på http://validator.w3.org/.
+  - [ ] CSS validering på http://jigsaw.w3.org/css-validator/.
+  - [ ] Valider løsningen mot WCAG på https://wave.webaim.org/extension/.
+  - [ ] Last opp hele nettstedet som ZIP eller GitHub-lenke.
+
+- [ ] **Python-program**
+  - [ ] Utvikle Python-program som del av innlevering 3.
+
+
 ## Prosjektbeskrivelse
 Lærings lab siden:
 
