@@ -6,7 +6,7 @@
 - Lag wireframes og ha de med i rapporten
 
 ## Sjekkliste for Innleveringer
-
+:white_check_mark: / :heavy_check_mark:
 ### Innlevering 1
 - [ ] **Skriftlig del: Prosjektrapport**
   - [ ] Prosjektbeskrivelse (maks 1/2 side): Kort beskrivelse av læringslabbene.
