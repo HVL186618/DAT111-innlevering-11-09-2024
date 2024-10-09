@@ -25,9 +25,9 @@
 ### Innlevering 2
 - [ ] **Skriftlig del: Prosjektrapport**
   - [ ] Løsningsdesign/Wireframes (maks 2 sider): Utvid med design for BRH-3 og BRH-4.
-  - [ ] Oppdatert product backlog (maks 1/2 side): Oppdater backlog med nye prioriteringer.
-  - [ ] Sprint Backlog/Sprintplan med Sprint Burndown chart (maks 1 side): Lag sprintplan og burndown.
-  - [ ] Kanbanboard/Scrumboard (maks 1 side): Ta bilder ved start, midtveis, og slutten av sprinten.
+  - [x] Oppdatert product backlog (maks 1/2 side): Oppdater backlog med nye prioriteringer.
+  - [x] Sprint Backlog/Sprintplan med Sprint Burndown chart (maks 1 side): Lag sprintplan og burndown.
+  - [x] Kanbanboard/Scrumboard (maks 1 side): Ta bilder ved start, midtveis, og slutten av sprinten.
   - [ ] Demo av kodet nettsted (video, maks 3 minutter): Lag en video med lyd som demonstrerer prosjektet.
 
 - [ ] **Web/HTML-del**
