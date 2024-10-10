@@ -31,10 +31,10 @@
   - [ ] Demo av kodet nettsted (video, maks 3 minutter): Lag en video med lyd som demonstrerer prosjektet.
 
 - [ ] **Web/HTML-del**
-  - [ ] Oppdater og utvid nettstedet med funksjonalitet fra BRH-3 og BRH-4.
+  - [x] Oppdater og utvid nettstedet med funksjonalitet fra BRH-3 og BRH-4.
   - [x] Lag en gjennomgående CSS-fil som dekker alle sider.
-  - [ ] HTML validering på http://validator.w3.org/.
-  - [ ] CSS validering på http://jigsaw.w3.org/css-validator/.
+  - [x] HTML validering på http://validator.w3.org/.
+  - [x] CSS validering på http://jigsaw.w3.org/css-validator/.
   - [ ] Last opp hele nettstedet som ZIP eller GitHub-lenke.
 
 ### Innlevering 3
