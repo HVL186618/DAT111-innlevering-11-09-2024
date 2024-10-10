@@ -7,6 +7,10 @@
 
 ## Sjekkliste for Innleveringer
 :white_check_mark: / :heavy_check_mark:
+
+### BONUS DUCKS!
+- [x] **DUCKS**
+  - [x] MORE BONUS DUCKS!
 ### Innlevering 1
 - [x] **Skriftlig del: Prosjektrapport**
   - [x] Prosjektbeskrivelse (maks 1/2 side): Kort beskrivelse av læringslabbene.
