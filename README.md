@@ -21,7 +21,7 @@
   - [x] Presentasjon av prosjektgruppen (maks 1 side): Kort presentasjon med bilde av gruppemedlemmene.
 
 - [ ] **Web/HTML-del**
-  - [] Lag struktur og første versjon av nettsidene (BRH-1, BRH-2, BRH-5).
+  - [ ] Lag struktur og første versjon av nettsidene (BRH-1, BRH-2, BRH-5).
   - [x] Bruk minst 2 overskriftsnivåer, lister, tabeller, semantiske elementer, og bilder.
   - [x] HTML validering på http://validator.w3.org/.
   - [x] Last opp hele nettstedet som en ZIP-fil.
