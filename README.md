@@ -13,7 +13,7 @@
   - [x] Identifiserte brukere og brukerhistorier (maks 2 sider): Skriv nye brukerhistorier (BRH-6 og BRH-7).
   - [ ] Product backlog (maks 1 side): Lag en prioritert og estimert backlog.
   - [ ] Prosjektplan (maks 1 side): Sett opp tids- og fremdriftsplan (GANTT).
-  - [ ] Løsningsdesign/Wireframes (maks 2 sider): Design wireframes for BRH-1, BRH-2, og BRH-5.
+  - [x] Løsningsdesign/Wireframes (maks 2 sider): Design wireframes for BRH-1, BRH-2, og BRH-5.
   - [x] Presentasjon av prosjektgruppen (maks 1 side): Kort presentasjon med bilde av gruppemedlemmene.
 
 - [ ] **Web/HTML-del**
