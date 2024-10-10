@@ -14,7 +14,7 @@ html, body {
 .HVLMenu {
     background-color: #004357;
     width: 100%; /* gå helt ut til kantene */
-    height: 82; /* høyden til den blå hvl menyen */
+    height: 82px; /* høyden til den blå hvl menyen */
     display: flex;
     align-items: center;
     justify-content: flex-start;
