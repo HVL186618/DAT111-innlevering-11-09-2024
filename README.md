@@ -9,16 +9,16 @@
 :white_check_mark: / :heavy_check_mark:
 ### Innlevering 1
 - [ ] **Skriftlig del: Prosjektrapport**
-  - [ ] Prosjektbeskrivelse (maks 1/2 side): Kort beskrivelse av læringslabbene.
-  - [ ] Identifiserte brukere og brukerhistorier (maks 2 sider): Skriv nye brukerhistorier (BRH-6 og BRH-7).
+  - [x] Prosjektbeskrivelse (maks 1/2 side): Kort beskrivelse av læringslabbene.
+  - [x] Identifiserte brukere og brukerhistorier (maks 2 sider): Skriv nye brukerhistorier (BRH-6 og BRH-7).
   - [ ] Product backlog (maks 1 side): Lag en prioritert og estimert backlog.
   - [ ] Prosjektplan (maks 1 side): Sett opp tids- og fremdriftsplan (GANTT).
   - [ ] Løsningsdesign/Wireframes (maks 2 sider): Design wireframes for BRH-1, BRH-2, og BRH-5.
-  - [ ] Presentasjon av prosjektgruppen (maks 1 side): Kort presentasjon med bilde av gruppemedlemmene.
+  - [x] Presentasjon av prosjektgruppen (maks 1 side): Kort presentasjon med bilde av gruppemedlemmene.
 
 - [ ] **Web/HTML-del**
   - [ ] Lag struktur og første versjon av nettsidene (BRH-1, BRH-2, BRH-5).
-  - [ ] Bruk minst 2 overskriftsnivåer, lister, tabeller, semantiske elementer, og bilder.
+  - [x] Bruk minst 2 overskriftsnivåer, lister, tabeller, semantiske elementer, og bilder.
   - [ ] HTML validering på http://validator.w3.org/.
   - [ ] Last opp hele nettstedet som en ZIP-fil.
 
