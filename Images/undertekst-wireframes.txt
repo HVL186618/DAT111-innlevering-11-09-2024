@@ -1,0 +1,5 @@
+Wireframe 1:
+Dette enkle oppsettet er inspirert av den originale nettsida, og designet gir muligheten til flere elementer som kan brukes til å bygge opp alle sidene med lik stil.
+
+Wireframe 2:
+Oppsettet er basert på wireframe 1, men utvidet for BRH-3. Layouten gjør Cheqroom til fokus av siden, og gir lett tilgang til info og linker. Videoen er promo-videoen til læringslaben, og inneholder noe av hva som kan brukes og lånes.
