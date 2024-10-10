@@ -7,34 +7,38 @@
 
 ## Sjekkliste for Innleveringer
 :white_check_mark: / :heavy_check_mark:
+
+### 🦆BONUS DUCKS!
+- [x] **DUCKS**
+  - [x] MORE BONUS DUCKS!
 ### Innlevering 1
-- [ ] **Skriftlig del: Prosjektrapport**
+- [x] **Skriftlig del: Prosjektrapport**
   - [x] Prosjektbeskrivelse (maks 1/2 side): Kort beskrivelse av læringslabbene.
   - [x] Identifiserte brukere og brukerhistorier (maks 2 sider): Skriv nye brukerhistorier (BRH-6 og BRH-7).
-  - [ ] Product backlog (maks 1 side): Lag en prioritert og estimert backlog.
-  - [ ] Prosjektplan (maks 1 side): Sett opp tids- og fremdriftsplan (GANTT).
+  - [x] Product backlog (maks 1 side): Lag en prioritert og estimert backlog.
+  - [x] Prosjektplan (maks 1 side): Sett opp tids- og fremdriftsplan (GANTT).
   - [x] Løsningsdesign/Wireframes (maks 2 sider): Design wireframes for BRH-1, BRH-2, og BRH-5.
   - [x] Presentasjon av prosjektgruppen (maks 1 side): Kort presentasjon med bilde av gruppemedlemmene.
 
 - [ ] **Web/HTML-del**
   - [ ] Lag struktur og første versjon av nettsidene (BRH-1, BRH-2, BRH-5).
   - [x] Bruk minst 2 overskriftsnivåer, lister, tabeller, semantiske elementer, og bilder.
-  - [ ] HTML validering på http://validator.w3.org/.
-  - [ ] Last opp hele nettstedet som en ZIP-fil.
+  - [x] HTML validering på http://validator.w3.org/.
+  - [x] Last opp hele nettstedet som en ZIP-fil.
 
 ### Innlevering 2
 - [ ] **Skriftlig del: Prosjektrapport**
-  - [ ] Løsningsdesign/Wireframes (maks 2 sider): Utvid med design for BRH-3 og BRH-4.
+  - [x] Løsningsdesign/Wireframes (maks 2 sider): Utvid med design for BRH-3 og BRH-4.
   - [x] Oppdatert product backlog (maks 1/2 side): Oppdater backlog med nye prioriteringer.
   - [x] Sprint Backlog/Sprintplan med Sprint Burndown chart (maks 1 side): Lag sprintplan og burndown.
   - [x] Kanbanboard/Scrumboard (maks 1 side): Ta bilder ved start, midtveis, og slutten av sprinten.
   - [ ] Demo av kodet nettsted (video, maks 3 minutter): Lag en video med lyd som demonstrerer prosjektet.
 
 - [ ] **Web/HTML-del**
-  - [ ] Oppdater og utvid nettstedet med funksjonalitet fra BRH-3 og BRH-4.
+  - [x] Oppdater og utvid nettstedet med funksjonalitet fra BRH-3 og BRH-4.
   - [x] Lag en gjennomgående CSS-fil som dekker alle sider.
-  - [ ] HTML validering på http://validator.w3.org/.
-  - [ ] CSS validering på http://jigsaw.w3.org/css-validator/.
+  - [x] HTML validering på http://validator.w3.org/.
+  - [x] CSS validering på http://jigsaw.w3.org/css-validator/.
   - [ ] Last opp hele nettstedet som ZIP eller GitHub-lenke.
 
 ### Innlevering 3
