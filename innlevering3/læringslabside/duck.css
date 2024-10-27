@@ -139,3 +139,10 @@ button {
     bottom:0px;
     width: 25%;
 }
+.register_button {
+    position: absolute;
+    right: 100px;
+    background-color: #004357;
+    border: 0px;
+}
+
