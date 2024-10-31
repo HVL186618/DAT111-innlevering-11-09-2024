@@ -21,67 +21,65 @@ import matplotlib.pyplot as plt
 def main():
     # Bruk importerBesoekertall-funksjonen til å opprette en liste bestående av alle radene
     # i csv-filen og lagre denne i en variabel.
-    csvliste = # FYLL INN KODE HER #
+    csvliste = importerBesoekertall()
     
     # Henter ut timene Læringslab er åpent fra csvliste, konverterer verdiene til heltall og gjør de om til en liste.
     # Fyll inn korrekte verdier i hakeparentesene for å hente ut de korrekte verdiene fra header-raden. Bruk slicing
     # som dere kan lese mer om her: https://www.pythonmorsels.com/slicing/
-    x = list(map(int,csvliste[???][???]))
+    x = list(map(int,csvliste[0][1:]))  # x = list(map(int,csvliste[???][???]))
 
     # Gå gjennom alle radene i csvliste, hent ut verdier, finn anbefalte tidsrom og plot grafer.
     # Legg inn korrekt verdi i hakeparentesene.
-    for rad in csvliste[???]:
-        
+    for rad in csvliste[1:]:
+        dag = rad[0]
         y = list(map(int,rad[1:]))
         
         # Utfør et kall på anbefalteTidsrom-funksjonen med følgende argument: dag, liste over tidspunkt, 
         # liste over besøkende og grenseverdi.
-        # FYLL INN KODE HER #
+        anbefalteTidsrom(dag, x, y, 5)
         
         # Utfør et kall på plotGraf-funksjonen med verdiene for x- og y-aksen som argument, samt navnet på dagen.
-        # FYLL INN KODE HER #
+        plotGraf(x, y, dag)
 
 ### Funksjon som importerer fil ved hjelp av csv-biblioteket ###
-def importerBesoekertall(filnavn):
-    
-    # Opprett en tom liste som skal holde på verdiene som blir lest fra csv-filen.
-    # FYLL INN KODE HER #    
-    
-    # Åpner filen for lesing.
+def importerBesoekertall(filnavn="besoekerstatistikk.csv"):
+    rows = []
+
     with open(filnavn, newline='') as csvfile:
-        # Opprett en filleser ved hjelp av csv-biblioteket. Husk å spesifisere korrekt fil og skilletegn som argument.
-        # FYLL INN KODE HER #
-        
-        # Bruk en for-løkke for å gå gjennom hver rad i filleseren.
-        # FYLL INN KODE HER #
-            
-            # Legg til raden i listen som ble opprettet tidligere i funksjonen.
-            # FYLL INN KODE HER #
-            
-    # Returner den ferdige listen med innholdet fra csv-filen.
-    # FYLL INN KODE HER #
+        reader = csv.reader(csvfile)
+
+        for row in reader:
+            rows.append(row)
+    return rows
 
 ### Funksjon som plotter en graf ved hjelp av matplotlib ###
 def plotGraf(x, y, navn):
     
     # Opprett fire grenseverdier som spesifiserer lite, medium, høyt og veldig høyt besøkstall.
-    # FYLL INN KODE HER #
+    li, me, hi, vh = 5, 10, 15, 20
     
     # Spesifiserer fargene i plottet. Vi bruker listekomprehering som setter verdier basert på elementene i listen,
     # dvs. vi går gjennom alle verdiene i listen og setter de til en ny verdi basert på sannhetsuttrykk.
     # Det fungerer likt som om vi hadde gjort det med for-else-struktur, men litt mer kompakt.
     # Vi opererer med RGBA-verdier, derfor trenger vi "True" som tillegsverdi i hakeparentes.
-    barcolor =  [{?sannhetsuttrykk?: 'green', ?sannhetsuttrykk?: 'yellow', 
-                  ?sannhetsuttrykk?: 'orange', ?sannhetsuttrykk?: 'red'}[True] for verdi in y]
+    barcolor =  [
+        {
+            verdi < li: 'green', li <= verdi < me: 'yellow',
+            me  <= verdi < hi: 'orange', hi  <= verdi <= vh: 'red'
+        }[True]
+        for verdi in y
+    ]
     
     # Definerer barene i plottet.
     # Bruk matplotlib.pyplot sin bar-funksjon. Spesifiser bredde på barene, kantfarge, linjebredde og 
     # farger (som vi nettopp har lagret i en liste).
-    # FYLL INN KODE HER #
+    plt.bar(x, y, color=barcolor, edgecolor='black', linewidth=1)
     
     # Legger til navn på x- og y-aksene, samt tittel på grafen.
     # Bruk matplotlib.pyplot sin xlabel-, ylabel- og title-funksjon.
-    # FYLL INN KODE HER #
+    plt.title(f"Besøkstall: {navn}")
+    plt.xlabel("Tidsrom")
+    plt.ylabel("Besøkstall")
     
     # Lagrer plottet.
     # Kall på matplotlib.pyplot sin savefig-funksjon med korrekt navn på grafen som argument.
@@ -95,7 +93,33 @@ def plotGraf(x, y, navn):
 
 ### Funksjon som finner og skriver ut anbefalte tidsrom for besøk. ###
 def anbefalteTidsrom(dag, tidspunktliste, besoekendeliste, grenseverdi):
-    
+    tidsrom = []
+    start = 0
+    slutt = 0
+
+    for i in range(len(tidspunktliste)):
+        tidspunkt = tidspunktliste[i]
+        antall_besoekende = besoekendeliste[i]
+
+        if antall_besoekende < grenseverdi:
+            if start == 0:
+                start = tidspunkt
+            slutt = tidspunkt
+
+            if i == len(tidspunktliste) - 1 or besoekendeliste[i + 1] >= grenseverdi:
+                tidsrom.append((start, slutt))
+                start = 0
+                slutt = 0
+
+    print(f"Anbefalte tidsrom å besøke Læringslab på {dag}:")
+    for start, slutt in tidsrom:
+        if start == slutt:
+            print(f"Kl. {start}:00")
+        else:
+            print(f"Kl. {start}:00 - {slutt}:00")
+    print()
+
+    return tidsrom
     # Oppretter variabler for å holde på tidsrom og for å mellomlagre start- og sluttverdi for tidsrom.
     # Bruk verdien 0 som initiell verdi for start- og sluttverdi og for å indikere at verdiene ikke har blitt satt enda.
     # FYLL INN KODE HER #
@@ -152,3 +176,5 @@ def anbefalteTidsrom(dag, tidspunktliste, besoekendeliste, grenseverdi):
 # Kaller på main-metoden til slutt. Siden Python er et tolket språk må alle funksjoner som brukes i 
 # en funksjon allerede være definert når den kalles. Dette er en av måtene å håndtere dette på.
 # FYLL INN KODE HER #
+if __name__ == "__main__":
+    main()
