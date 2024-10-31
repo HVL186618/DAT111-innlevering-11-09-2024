@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const dropdownToggles = document.querySelectorAll(".dropdown-toggle");
     const dropdownContents = document.querySelectorAll(".dropdown-content");
 
-    /*dropdownToggles.forEach((toggle, index) => {
+    dropdownToggles.forEach((toggle, index) => {
         toggle.addEventListener("click", function() {
             // toggle display av korresponderende dropdown content
             const dropdownContent = dropdownContents[index];
@@ -13,18 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 dropdownContent.style.display = "block";
             }
         });
-    });*/
-
-    dropdownToggles.forEach((toggle, index) => {
-        toggle.addEventListener("click", function() {
-            const dropdownContent = dropdownContents[index];
-            const isVisible = dropdownContent.style.display === "block";
-
-            dropdownContent.style.display = isVisible ? "none" : "block";
-            toggle.classList.toggle("active", !isVisible);
-        });
     });
-    
 
     // de skulle aldri gitt oss makten til å erstatte alle punktum med små ender
     function replacePeriodsWithImage(node) {

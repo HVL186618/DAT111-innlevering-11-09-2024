@@ -260,8 +260,6 @@ label {
     width: 100%;
 }
 
-
-
 input[type="text"],
 input[type="email"],
 input[type="password"] {
@@ -269,29 +267,13 @@ input[type="password"] {
     margin-top: 5px;
     width: 100%;
     box-sizing: border-box;
-    border: 1px solid #cccccc; /* Light gray border */
-    border-radius: 5px;
-    transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
-input[type="text"]:focus,
-input[type="email"]:focus,
-input[type="password"]:focus {
-    border-color: #004357; 
-    box-shadow: 0 0 8px rgba(100, 208, 223, 0.4); 
-    outline: none; 
-}
-
-input::placeholder {
-    color: #aaaaaa; 
-    font-style: normal; 
-}
-
 
 #register-button {
     padding: 12px 20px;
     font-size: 16px;
     color: #ffffff;
-    background-color: #004357;
+    background-color: #004357; /* Dark blue background */
     border: none;
     border-radius: 8px;
 	cursor: url('pointer.png'), auto;
@@ -302,8 +284,8 @@ input::placeholder {
 }
 
 #register-button:hover {
-    background-color: #006b8f; 
-    transform: translateY(-2px); 
+    background-color: #006b8f; /* Lighter blue on hover */
+    transform: translateY(-2px); /* Subtle lift effect */
 }
 
 #register-button:active {
@@ -313,8 +295,8 @@ input::placeholder {
 }
 
 #register-button:disabled {
-    background-color: gray;
-    color: #cccccc;
+    background-color: gray; /* Disabled background */
+    color: #cccccc; /* Disabled text color */
     cursor: not-allowed;
     box-shadow: none;
 }
@@ -323,4 +305,18 @@ input::placeholder {
     background-color: gray;
     color: #333333;
     cursor: not-allowed;
+}
+/*
+#register-button {
+    padding: 10px;
+    width: 100%;
+    background-color: #ddd;
+    color: white;
+    border: none;
+    cursor: not-allowed;
+}
+
+#register-button:enabled {
+    cursor: pointer;
+    background-color: #28a745;
 }

@@ -78,88 +78,35 @@ p {
     margin-top: 100px;
 }
 
-
-/* 
-
-toggleable dropdown bør brukes inni en text container 
-
-*/
+/* toggleable dropdown bør brukes inni en text container */
 .dropdown-toggle {
-    background: linear-gradient(135deg, #f0f9fa, #d9f0f2); 
+    background-color: #f0f9fa;
     color: #004357;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 25px;
     border: 1px solid #64d0df;
-    border-radius: 8px; 
-    padding: 10px 15px;
+    border-radius: 5px;
+    padding: 10px;
     width: 100%;
     text-align: left;
-    margin-bottom: 0;
-    cursor: pointer;
-    transition: background-color 0.3s ease, box-shadow 0.2s ease;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
-
-.dropdown-toggle:hover {
-    background: linear-gradient(135deg, #e3f5f7, #c7e7ea);
-	cursor: url('pointer.png'), auto;
-}
-
-.dropdown-toggle::after {
-    content: "▼"; 
-    font-size: 12px;
-    color: #004357;
-    margin-left: 8px;
-    transition: transform 0.2s ease;  /* tid for å rotere pilen når menyen åpnes eller lukkes */
-}
-
-.dropdown-toggle.active::after {
-    transform: rotate(180deg); /* roter pila 180 grader */
-}
-
-/* dropdown content */
-.dropdown-content {
-    display: none; /* Initially hidden */
-    background: linear-gradient(135deg, #ffffff, #f6f8f9);
-    border: 1px solid #64d0df;
-    border-top: none;
-    border-radius: 0 0 8px 8px;
-    padding: 15px 20px;
-    margin-top: -6px;
-    font-size: 16px;
-    color: #004357;
-    transition: max-height 0.4s ease, opacity 0.4s ease;
-}
-
-.dropdown-content p {
-    margin: 10px 0;
-    line-height: 1.6;
-}
-
-.dropdown-content a {
-    color: #006b8f;
-    text-decoration: none;
-    font-weight: 600;
-}
-
-.dropdown-content a:hover {
-    color: #004357;
-    text-decoration: underline;
-	cursor: url('pointer.png'), auto;
-}
-
-/*
-
-*/
 
 ul, li {
     margin-left: 15px;
 }
 
-
+/* style for collapsible inni drop down */
+.dropdown-content {
+    display: none;
+    width: 100%;
+    background-color: #f6f8f9;
+    border: 0px solid #eeeeee;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: -5px;
+}
 strong, h1, h2, h3 {
     color: #004357;
 }
@@ -260,8 +207,6 @@ label {
     width: 100%;
 }
 
-
-
 input[type="text"],
 input[type="email"],
 input[type="password"] {
@@ -269,29 +214,13 @@ input[type="password"] {
     margin-top: 5px;
     width: 100%;
     box-sizing: border-box;
-    border: 1px solid #cccccc; /* Light gray border */
-    border-radius: 5px;
-    transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
-input[type="text"]:focus,
-input[type="email"]:focus,
-input[type="password"]:focus {
-    border-color: #004357; 
-    box-shadow: 0 0 8px rgba(100, 208, 223, 0.4); 
-    outline: none; 
-}
-
-input::placeholder {
-    color: #aaaaaa; 
-    font-style: normal; 
-}
-
 
 #register-button {
     padding: 12px 20px;
     font-size: 16px;
     color: #ffffff;
-    background-color: #004357;
+    background-color: #004357; /* Dark blue background */
     border: none;
     border-radius: 8px;
 	cursor: url('pointer.png'), auto;
@@ -302,8 +231,8 @@ input::placeholder {
 }
 
 #register-button:hover {
-    background-color: #006b8f; 
-    transform: translateY(-2px); 
+    background-color: #006b8f; /* Lighter blue on hover */
+    transform: translateY(-2px); /* Subtle lift effect */
 }
 
 #register-button:active {
@@ -313,8 +242,8 @@ input::placeholder {
 }
 
 #register-button:disabled {
-    background-color: gray;
-    color: #cccccc;
+    background-color: gray; /* Disabled background */
+    color: #cccccc; /* Disabled text color */
     cursor: not-allowed;
     box-shadow: none;
 }
@@ -323,4 +252,18 @@ input::placeholder {
     background-color: gray;
     color: #333333;
     cursor: not-allowed;
+}
+/*
+#register-button {
+    padding: 10px;
+    width: 100%;
+    background-color: #ddd;
+    color: white;
+    border: none;
+    cursor: not-allowed;
+}
+
+#register-button:enabled {
+    cursor: pointer;
+    background-color: #28a745;
 }
