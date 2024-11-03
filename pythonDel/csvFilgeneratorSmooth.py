@@ -1,14 +1,14 @@
 import csv
 import random
 
-# for mer naturlig statistikk, gjør beregingen i csvFilegeneratorSimple {n} ganger
+# for mer naturlig statistikk, gjør denne koden beregningene i csvFilegeneratorSimple {n} ganger
 
 n = 10
 dager = "mandag tirsdag onsdag torsdag fredag".title().split(" ")
 tidspunkter = [str(i) for i in range(9, 19)]
 summer = {dag: [0] * len(tidspunkter) for dag in dager}
 
-for _ in range(n):
+for _ in range(n): # gjør beregninger {n] ganger
     for dag in dager:
         # Generer tilfeldige verdier for alle tidspunktene i løpet av dagen.
         verdier = (
