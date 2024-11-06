@@ -83,19 +83,19 @@ document.addEventListener("DOMContentLoaded", function() {
         // update validation status message
         if (password.value == "") return false;
         else if (!hasCapitalLetter) {
-            passwordMessage.textContent = "Password must contain at least one uppercase letter.";
+            passwordMessage.textContent = "Passordet må inneholde minst en stor bokstav.";
             passwordMessage.className = "message error";
             return false;
         } else if (!hasNumber) {
-            passwordMessage.textContent = "Password must contain at least one number.";
+            passwordMessage.textContent = "Passordet må  inneholde minst ett tall.";
             passwordMessage.className = "message error";
             return false;
         } else if (!hasDuck) {
-            passwordMessage.textContent = "Password must contain the word 'duck'.";
+            passwordMessage.textContent = "Passordet må innholde ordet 'duck'.";
             passwordMessage.className = "message error";
             return false;
         } else {
-            passwordMessage.textContent = "Password meets all requirements!";
+            passwordMessage.textContent = "Passord godkjent!";
             passwordMessage.className = "message success";
             return true;
         }
@@ -104,11 +104,11 @@ document.addEventListener("DOMContentLoaded", function() {
     function validateConfirmPassword() {
         if (confirmPassword.value == "") return false;
         else if (confirmPassword.value !== password.value) {
-            confirmPasswordMessage.textContent = "Passwords do not match.";
+            confirmPasswordMessage.textContent = "Passordene må være like.";
             confirmPasswordMessage.className = "message error";
             return false;
         } else {
-            confirmPasswordMessage.textContent = "Passwords match!";
+            confirmPasswordMessage.textContent = "Passordene er like!";
             confirmPasswordMessage.className = "message success";
             return true;
         }
@@ -117,17 +117,17 @@ document.addEventListener("DOMContentLoaded", function() {
     function validateUsername() {
         const usernameValue = username.value;
 
-        // Username cannot be empty or contain spaces
+        // username validering
         if (usernameValue === "") {
-            usernameMessage.textContent = "Username cannot be empty.";
+            usernameMessage.textContent = "Brukernavn kan ikek være tomt!";
             usernameMessage.className = "message error";
             return false;
         } else if (/\s/.test(usernameValue)) {
-            usernameMessage.textContent = "Username cannot contain spaces.";
+            usernameMessage.textContent = "Brukernavn kan ikke inneholde mellomrom!";
             usernameMessage.className = "message error";
             return false;
         } else {
-            usernameMessage.textContent = "Username is valid!";
+            usernameMessage.textContent = "Brukernavn godkjent!";
             usernameMessage.className = "message success";
             return true;
         }
@@ -136,16 +136,16 @@ document.addEventListener("DOMContentLoaded", function() {
     function validateEmail() {
         const emailValue = email.value;
 
-        // Check for text before '@', '@' symbol, and domain format after '@'
+        // regex for å validere email
         const isValidEmail = /^[^@]+@[a-zA-Z]+\.[a-zA-Z]+$/.test(emailValue);
 
         if (email.value == "") return false;
         else if (!isValidEmail) {
-            emailMessage.textContent = "Email must be in a valid format (e.g., user@domain.com).";
+            emailMessage.textContent = "Dobbeltsjekk at email er skrevet riktig!";
             emailMessage.className = "message error";
             return false;
         } else {
-            emailMessage.textContent = "Email is valid!";
+            emailMessage.textContent = "Email er godkjent!";
             emailMessage.className = "message success";
             return true;
         }
@@ -173,7 +173,7 @@ document.addEventListener("DOMContentLoaded", function() {
             // disable and style the button with the disabled message
             registerButton.disabled = true;
             registerButton.classList.add("disabled-button");
-            registerButton.textContent = "Please fill in all fields to submit";
+            registerButton.textContent = "Vennligst fyll inn alle felt før du fortsetter.";
         } else {
             // redirect to index.html if all validations pass
             window.location.href = "index.html";
