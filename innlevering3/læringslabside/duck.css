@@ -221,6 +221,7 @@ button {
 .register_button:hover {
     background-color: #006b8f; /* Lighter blue on hover */
     transform: translateY(-2px); /* Slight lift */
+	cursor: url('pointer.png'), auto;
 }
 
 .register_button:active {
@@ -304,6 +305,7 @@ input::placeholder {
 #register-button:hover {
     background-color: #006b8f; 
     transform: translateY(-2px); 
+	cursor: url('pointer.png'), auto;
 }
 
 #register-button:active {
@@ -323,4 +325,78 @@ input::placeholder {
     background-color: gray;
     color: #333333;
     cursor: not-allowed;
+}
+
+
+/* nav meny */
+
+.nav {
+    background-color: transparent;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    overflow: hidden;
+    outline: none;
+    border-color:#007096;
+    color: white;
+    border-right-width: 1px;
+    padding-left: 10px;
+    width:13%;
+    height:100%;
+    font-size: 22px;
+}
+
+.nav:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+	cursor: url('pointer.png'), auto;
+    border-color:transparent;;
+}
+
+
+/* utstyr */
+.equipment-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    text-align: left;
+    font-size: 16px;
+}
+
+.equipment-table th,
+.equipment-table td {
+    padding: 15px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.equipment-table th {
+    background-color: #004357;
+    color: white;
+    font-weight: bold;
+}
+
+.equipment-table td {
+    background-color: #f9f9f9;
+}
+
+/* Hover effect for table rows */
+.equipment-table tr:hover {
+    background-color: #e6f7ff;
+}
+
+/* Styling for availability status */
+.available {
+    color: green;
+    font-weight: bold;
+}
+
+.loaned {
+    color: red;
+    font-weight: bold;
+}
+
+/* Styling for equipment images */
+.equipment-image {
+    width: 100px;
+    height: auto;
+    border-radius: 8px;
 }
